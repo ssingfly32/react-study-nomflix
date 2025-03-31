@@ -5,7 +5,7 @@ import { RouterProvider } from 'react-router-dom';
 import { router } from './router';
 
 const rootElement = document.getElementById('root');
-const root = ReactDOM.createRoot(rootElement);
+const root = ReactDOM.createRoot(rootElement!);
 
 const client = new QueryClient();
 

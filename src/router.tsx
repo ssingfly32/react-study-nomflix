@@ -5,5 +5,13 @@ export const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    children: [
+      {
+        path: 'tv'
+      },
+      {
+        path: 'search'
+      },
+    ]
   },
 ]);
