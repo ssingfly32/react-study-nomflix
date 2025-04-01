@@ -12,7 +12,7 @@ const client = new QueryClient();
 root.render(
   <React.StrictMode>
     <QueryClientProvider client={client}>
-      <RouterProvider router={router} />
+        <RouterProvider router={router} />
     </QueryClientProvider>
   </React.StrictMode>
 );
